@@ -1,0 +1,53 @@
+c=['1','2','3','4']
+c1=['A','B','C','D']
+c2=['E','F','G','H']
+c3=['I','J','K','L']
+c4=['M','N','O','P']
+c5=['Q','R','S','T']
+c6=['U','V','W','X']
+c7=['Y','Z']
+
+c_0=['1','2','3','4','5','6','7']
+c_1=['A','E','I','M','Q','U','Y']
+c_2=['B','F','J','N','R','V','Z']
+c_3=['C','G','K','O','S','W']
+c_4=['D','H','L','P','T','X']
+
+print(c)
+print(c1)
+print(c2)
+print(c3)
+print(c4)
+print(c5)
+print(c6)
+print(c7)
+
+len=int(input("Enter alphabets of your words: "))
+
+length_of_input=1
+columnopt=[]
+while length_of_input <= len:
+    alphabets= int(input("Enter the column of the {}".format(length_of_input) + "th alphabet "))
+    if alphabets > 4 or alphabets < 1:
+        print("Please enter correct column number")
+    else:
+        columnopt.append(alphabets)
+        length_of_input = length_of_input + 1
+
+print(c_0)
+print(c_1)
+print(c_2)
+print(c_3)
+print(c_4)
+
+length_of_input=1
+columnopt=[]
+while length_of_input <= len:
+    alphabets2= int(input("Enter the column of the {}".format(length_of_input) + "th alphabet "))
+    if alphabets2 > 7 or alphabets2 < 1:
+        print("Please enter correct column number: ")
+    else:
+        columnopt.append(alphabets2)
+        length_of_input = length_of_input + 1
+
+
